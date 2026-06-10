@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.m4sport"
+       name="M4 Sport Live Source"
+       version="1.0.0"
+       provider-name="nonoo">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Kodi media source for M4 Sport live stream</summary>
+        <description lang="en_GB">Retrieves the current M4 Sport live URL from Mediaklikk automatically and resolves playback directly.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon>
