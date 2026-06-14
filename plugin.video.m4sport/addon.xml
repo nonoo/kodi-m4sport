@@ -5,6 +5,7 @@
        provider-name="nonoo">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
+        <import addon="inputstream.adaptive" version="2.0.0" optional="true" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -12,6 +13,9 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Kodi media source for M4 Sport live stream</summary>
         <description lang="en_GB">Retrieves the current M4 Sport live URL from Mediaklikk automatically and resolves playback directly.</description>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
         <platform>all</platform>
         <license>MIT</license>
     </extension>
