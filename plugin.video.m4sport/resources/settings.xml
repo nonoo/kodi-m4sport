@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <settings>
     <category label="General">
-        <setting id="source_page_url"
-                 type="text"
-                 label="Mediaklikk live page URL"
+        <setting id="source_page_url" type="text" label="Channel 1 URL"
                  default="https://mediaklikk.hu/elo/mtv4live/" />
-        <setting id="channel_name"
-                 type="text"
-                 label="Channel name"
+        <setting id="channel_name" type="text" label="Channel 1 name"
                  default="M4 Sport" />
+        <setting id="source_page_url_2" type="text" label="Channel 2 URL"
+                 default="https://m4sport.hu/elo" />
+        <setting id="channel_name_2" type="text" label="Channel 2 name"
+                 default="M4 Sport direct" />
     </category>
 </settings>
